@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+    <title>led 点阵模拟器</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="container">
+    <div class="display">
+        <canvas id="id-canvas-matrix" width="353" height="177"></canvas>
+    </div>
+
+    <div class="panel">
+        <input type="range" id="id-input-speed" min="0" max="9" step="0.5" value="7">
+        <textarea id="id-textarea-string"></textarea>
+        <input type="color" id="id-input-color" value="#ff0000">
+        <button id="id-button-update-options">OK</button>
+    </div>
+
+    <footer>
+        <p>© 2019 大侄子</p>
+    </footer>
+</div>
+
+<script type="text/javascript" src="config.js"></script>
+<script type="text/javascript" src="utils.js"></script>
+
+<script type="text/javascript" src="gbk.min.js"></script>
+<script type="text/javascript" src="font_data.js"></script>
+
+<script type="text/javascript" src="font.js"></script>
+<script type="text/javascript" src="led.js"></script>
+<!--主函数-->
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
