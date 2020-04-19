@@ -35,7 +35,7 @@ const updateString = () => {
 
 const bindString = () => {
     let input = e('#id-textarea-string')
-    bindEvent(input, 'change', () => {
+    bindEvent(input, 'keyup', () => {
         updateString()
     })
 

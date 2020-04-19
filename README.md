@@ -66,7 +66,8 @@ js 实现的 LED 点阵模拟器
             - update_scroll_speed()
         - clear()
         - draw()
-            - pixel
+            - pixels
+                - pixel
 
         - on
             - interval
@@ -75,5 +76,5 @@ js 实现的 LED 点阵模拟器
             - string_bits
                 - string_bit
                     - word_bits`
-                          - Ascii
+                          - Ascii  ab 8/'[]
                           - GBK
